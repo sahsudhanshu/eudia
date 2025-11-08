@@ -23,6 +23,7 @@ from lexai.embedding_interrogator import EmbeddingInterrogator
 from agents.multi_model_internal_coherence_agent_light_pdf import run_internal_coherence_agent
 
 
+
 def load_citation_graph(graph_path: str = "lexai/data/processed/citation_graph.json"):
     """Load the citation graph built by citation_graph_builder.py"""
     print(f"\n{'='*80}")

@@ -2,8 +2,7 @@ import re
 import json
 from typing import List, Dict, Any
 
-from langchain_community.tools import DuckDuckGoSearchRun
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from transformers import pipeline
@@ -22,7 +21,8 @@ logic_llm = HuggingFacePipeline(pipeline=logic_pipe)
 nli = pipeline("text-classification", model="cross-encoder/nli-distilroberta-base")
 final_pipe = pipeline("text-generation", model="microsoft/phi-2", max_new_tokens=500, temperature=0.3)
 final_llm = HuggingFacePipeline(pipeline=final_pipe)
-search = DuckDuckGoSearchRun()
+# Lazy load search if needed (not currently used in analysis)
+search = None
 
 
 # ===========================================

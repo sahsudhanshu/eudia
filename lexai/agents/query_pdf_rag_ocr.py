@@ -7,7 +7,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import HuggingFacePipeline
 from transformers import pipeline
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from .ocr_agent import process_pdf  # Use OCR agent to extract text
 
@@ -26,6 +26,8 @@ rag_llm = HuggingFacePipeline(pipeline=rag_pipe)
 def build_faiss_index(text: str) -> FAISS:
     splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=120)
     chunks = splitter.split_text(text)
+    if not chunks:
+        raise ValueError("No text chunks available for indexing")
     vectordb = FAISS.from_texts(chunks, embedding=embedding_model)
     return vectordb
 
@@ -48,28 +50,76 @@ Question:
 
 Answer:
 """
-    return rag_llm.invoke(prompt)
+    response = rag_llm.invoke(prompt)
+    if isinstance(response, dict) and "generated_text" in response:
+        return response["generated_text"]
+    if isinstance(response, list):
+        return "\n".join(str(item) for item in response)
+    return str(response)
 
 
 # ===========================================
 # 4. Master Function: PDF → Answer
 # ===========================================
 def query_pdf_with_ocr(pdf_path: str, query: str) -> Dict[str, str]:
-    # Extract text from PDF
     ocr_result = process_pdf(pdf_path)
-    document_text = ocr_result["raw_text"]
+    document_text = ocr_result.get("raw_text", "").strip()
 
-    # Build FAISS index
-    vectordb = build_faiss_index(document_text)
+    if not document_text:
+        return {
+            "File Name": ocr_result.get("file_name", "Unknown"),
+            "Title": ocr_result.get("title", "Untitled"),
+            "Query": query,
+            "Answer": "No textual content could be extracted from this document.",
+        }
 
-    # Query LLM using retrieved context
-    answer = query_rag(vectordb, query)
+    try:
+        vectordb = build_faiss_index(document_text)
+        answer = query_rag(vectordb, query)
+    except ValueError:
+        answer = "No relevant passages were found to answer this question."
 
     return {
-        "File Name": ocr_result["file_name"],
-        "Title": ocr_result["title"],
+        "File Name": ocr_result.get("file_name", "Unknown"),
+        "Title": ocr_result.get("title", "Untitled"),
         "Query": query,
-        "Answer": answer
+        "Answer": answer,
+    }
+
+
+# ===========================================
+# 5. Optimized Function: Query from Cached Text
+# ===========================================
+def query_rag_from_text(document_text: str, query: str, title: str = "Document") -> Dict[str, str]:
+    """
+    Query document using cached OCR text (skips OCR processing).
+    This is much faster than query_pdf_with_ocr when text is already extracted.
+    
+    Args:
+        document_text: Pre-extracted text from OCR
+        query: Question to answer
+        title: Document title
+        
+    Returns:
+        Dictionary with query results
+    """
+    if not document_text or not document_text.strip():
+        return {
+            "Title": title,
+            "Query": query,
+            "Answer": "No textual content available for this document.",
+        }
+
+    try:
+        vectordb = build_faiss_index(document_text)
+        answer = query_rag(vectordb, query)
+    except ValueError:
+        answer = "No relevant passages were found to answer this question."
+
+    return {
+        "Title": title,
+        "Query": query,
+        "Answer": answer,
     }
 
 
@@ -77,8 +127,8 @@ def query_pdf_with_ocr(pdf_path: str, query: str) -> Dict[str, str]:
 # Example Run
 # ===========================================
 if __name__ == "__main__":
-    pdf_path = "eudia/lexai/data/raw/1-266Right_to_Privacy__Puttaswamy_Judgment-Chandrachud.pdf"
-    user_query = "What does the judgment say about Article 19(1)(a)?"
+    sample_pdf = "lexai/data/raw/1-266Right_to_Privacy__Puttaswamy_Judgment-Chandrachud.pdf"
+    sample_query = "What does the judgment say about Article 19(1)(a)?"
 
-    result = query_pdf_with_ocr(pdf_path, user_query)
+    result = query_pdf_with_ocr(sample_pdf, sample_query)
     print(json.dumps(result, indent=2))
