@@ -15,13 +15,66 @@ from .ocr_agent import process_pdf  # Import OCR agent
 # ===========================================
 # 1. Model Setup (Lightweight Versions)
 # ===========================================
-extractor = pipeline("zero-shot-classification", model="valhalla/distilbart-mnli-12-1")
-embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-MiniLM-L6-v2")
-logic_pipe = pipeline("text2text-generation", model="google/flan-t5-small", max_new_tokens=300)
+from transformers import pipeline
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.llms import HuggingFacePipeline
+from langchain_community.tools import DuckDuckGoSearchRun
+
+# -----------------------------
+# 1. Lightweight Classification & NLI
+# -----------------------------
+# Use a smaller and faster NLI model for zero-shot tasks
+extractor = pipeline(
+    "zero-shot-classification",
+    model="facebook/bart-large-mnli",     # moderate accuracy, faster than distilbart-mnli
+    device=-1                            # ensure CPU
+)
+
+# Or for extreme speed (sacrifices a bit of accuracy):
+# extractor = pipeline("zero-shot-classification", model="typeform/distilbert-base-uncased-mnli", device=-1)
+
+# -----------------------------
+# 2. Tiny Embedding Model
+# -----------------------------
+embedding_model = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/all-MiniLM-L6-v2"  # small, fast, robust on CPU
+)
+
+# -----------------------------
+# 3. Logic Reasoning Model (Small)
+# -----------------------------
+logic_pipe = pipeline(
+    "text2text-generation",
+    model="google/flan-t5-base",          # decent reasoning, still fast on CPU
+    max_new_tokens=200,
+    device=-1
+)
 logic_llm = HuggingFacePipeline(pipeline=logic_pipe)
-nli = pipeline("text-classification", model="cross-encoder/nli-distilroberta-base")
-final_pipe = pipeline("text-generation", model="microsoft/phi-2", max_new_tokens=500, temperature=0.3)
+
+# -----------------------------
+# 4. NLI (Contradiction Detection)
+# -----------------------------
+nli = pipeline(
+    "text-classification",
+    model="typeform/distilbert-base-uncased-mnli",  # very small, optimized
+    device=-1
+)
+
+# -----------------------------
+# 5. Final Summarization / Report Model
+# -----------------------------
+final_pipe = pipeline(
+    "text-generation",
+    model="microsoft/Phi-1.5",            # lighter than Phi-2, still coherent
+    max_new_tokens=300,
+    temperature=0.3,
+    device=-1
+)
 final_llm = HuggingFacePipeline(pipeline=final_pipe)
+
+# -----------------------------
+# 6. Search Tool (Online Data)
+# -----------------------------
 search = DuckDuckGoSearchRun()
 
 
