@@ -1,0 +1,297 @@
+[
+  {
+    "query_case": "199011KS1SC",
+    "query_case_name": "Hardyal And Prem vs State Of Rajasthan on 9 November, 1990",
+    "query_year": 1990,
+    "top_references": [
+      {
+        "case_id": "201207KS2SC",
+        "case_name": "Kamalbai Sinkar vs State Of Maharashtra & Ors on 20 July, 2012",
+        "year": 2012,
+        "similarity_score": 0.983,
+        "semantic_score": 0.983,
+        "citation_score": 0.0,
+        "reasoning": "High semantic similarity (0.98) indicates strong conceptual overlap in legal reasoning and arguments. This case (2012) is 22 years more recent than the query case (1990)."
+      },
+      {
+        "case_id": "196403KS3SC",
+        "case_name": "C. Rajagopalachari vs Corporation Of Madras on 3 March, 1964",
+        "year": 1964,
+        "similarity_score": 0.977,
+        "semantic_score": 0.977,
+        "citation_score": 0.0,
+        "reasoning": "High semantic similarity (0.98) indicates strong conceptual overlap in legal reasoning and arguments. This case (1964) predates the query case (1990) by 26 years, potentially serving as historical precedent."
+      },
+      {
+        "case_id": "201502KS1SC",
+        "case_name": "Union Of India & Ors vs Dileep Kumar Singh on 26 February, 2015",
+        "year": 2015,
+        "similarity_score": 0.976,
+        "semantic_score": 0.976,
+        "citation_score": 0.0,
+        "reasoning": "High semantic similarity (0.98) indicates strong conceptual overlap in legal reasoning and arguments. This case (2015) is 25 years more recent than the query case (1990)."
+      },
+      {
+        "case_id": "196910KS2SC",
+        "case_name": "Kantilal Chandulal Mehta vs State Of Maharashtra And Anr on 10 October, 1969",
+        "year": 1969,
+        "similarity_score": 0.976,
+        "semantic_score": 0.976,
+        "citation_score": 0.0,
+        "reasoning": "High semantic similarity (0.98) indicates strong conceptual overlap in legal reasoning and arguments. This case (1969) predates the query case (1990) by 21 years, potentially serving as historical precedent."
+      },
+      {
+        "case_id": "197504KS1SC",
+        "case_name": "O.P. Malhotra vs State Of Punjab And Ors. on 23 April, 1975",
+        "year": 1975,
+        "similarity_score": 0.975,
+        "semantic_score": 0.975,
+        "citation_score": 0.0,
+        "reasoning": "High semantic similarity (0.98) indicates strong conceptual overlap in legal reasoning and arguments. This case (1975) predates the query case (1990) by 15 years, potentially serving as historical precedent."
+      }
+    ],
+    "overall_legal_context_summary": "The query case 'Hardyal And Prem vs State Of Rajasthan on 9 November, 1990' shows strong legal connections to 5 precedent cases. 5 case(s) exhibit high semantic similarity (>0.7), indicating shared legal principles and reasoning patterns. The retrieved cases span an average year of 1987, providing temporal context for legal evolution. These cases collectively form a robust external knowledge base for legal analysis and argumentation.",
+    "retrieval_metadata": {
+      "total_retrieved": 5,
+      "citation_weight": 0.5,
+      "semantic_weight": 0.5,
+      "model": "law-ai/InLegalBERT"
+    }
+  },
+  {
+    "query_case": "196510KS1SC",
+    "query_case_name": "The State Of Mysore vs Padmanabhacharya Etc.[P. B. ... on 5 October, 1965",
+    "query_year": 1965,
+    "top_references": [
+      {
+        "case_id": "200810KS1SC",
+        "case_name": "Commnr. Of Central Excise, Bombay vs M/S. Rajpurohit Gmp India Ltd. & ... on 14 October, 2008",
+        "year": 2008,
+        "similarity_score": 0.791,
+        "semantic_score": 0.791,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.79) suggests related legal concepts and principles. This case (2008) is 43 years more recent than the query case (1965)."
+      },
+      {
+        "case_id": "197107KS1SC",
+        "case_name": "Shri M. P. Singh, Dy. Transport ... vs Anand Transport Co.(P) Ltd. Etc on 29 July, 1971",
+        "year": 1971,
+        "similarity_score": 0.788,
+        "semantic_score": 0.788,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.79) suggests related legal concepts and principles. This case (1971) is 6 years more recent than the query case (1965)."
+      },
+      {
+        "case_id": "200108KS1SC",
+        "case_name": "M/S. Bhaskar Industries Ltd vs M/S. Bhiwani Denim & Apparels Ltd. ... on 27 August, 2001",
+        "year": 2001,
+        "similarity_score": 0.781,
+        "semantic_score": 0.781,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.78) suggests related legal concepts and principles. This case (2001) is 36 years more recent than the query case (1965)."
+      },
+      {
+        "case_id": "197109KS2SC",
+        "case_name": "Khaitan Apte And Co. And Anr. vs D. Rama Rao, Income-Tax ... on 24 September, 1971",
+        "year": 1971,
+        "similarity_score": 0.771,
+        "semantic_score": 0.771,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.77) suggests related legal concepts and principles. This case (1971) is 6 years more recent than the query case (1965)."
+      },
+      {
+        "case_id": "199602KS1SC",
+        "case_name": "S.C. Mandakki Etc vs The Director Of Health Andfamily ... on 2 February, 1996",
+        "year": 1996,
+        "similarity_score": 0.771,
+        "semantic_score": 0.771,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.77) suggests related legal concepts and principles. This case (1996) is 31 years more recent than the query case (1965)."
+      }
+    ],
+    "overall_legal_context_summary": "The query case 'The State Of Mysore vs Padmanabhacharya Etc.[P. B. ... on 5 October, 1965' shows strong legal connections to 5 precedent cases. 5 case(s) exhibit high semantic similarity (>0.7), indicating shared legal principles and reasoning patterns. The retrieved cases span an average year of 1989, providing temporal context for legal evolution. These cases collectively form a robust external knowledge base for legal analysis and argumentation.",
+    "retrieval_metadata": {
+      "total_retrieved": 5,
+      "citation_weight": 0.5,
+      "semantic_weight": 0.5,
+      "model": "law-ai/InLegalBERT"
+    }
+  },
+  {
+    "query_case": "199505KS1SC",
+    "query_case_name": "Pradeep Narayan Madgonkar Etc. ... vs State Of Maharashtra on 12 May, 1995",
+    "query_year": 1995,
+    "top_references": [
+      {
+        "case_id": "197103KS2SC",
+        "case_name": "C. K. Daphtary & Ors vs O. P. Gupta & Ors on 19 March, 1971",
+        "year": 1971,
+        "similarity_score": 0.811,
+        "semantic_score": 0.811,
+        "citation_score": 0.0,
+        "reasoning": "High semantic similarity (0.81) indicates strong conceptual overlap in legal reasoning and arguments. This case (1971) predates the query case (1995) by 24 years, potentially serving as historical precedent."
+      },
+      {
+        "case_id": "197902KS1SC",
+        "case_name": "Vishnu Shiv Ram Bhoir And Ors. vs State Of Maharashtra on 22 February, 1979",
+        "year": 1979,
+        "similarity_score": 0.799,
+        "semantic_score": 0.799,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.80) suggests related legal concepts and principles. This case (1979) predates the query case (1995) by 16 years, potentially serving as historical precedent."
+      },
+      {
+        "case_id": "199503KS2SC",
+        "case_name": "Butu Prasad Khumbhar & Ors vs Steel Authority Of India Ltd. &Ors on 30 March, 1995",
+        "year": 1995,
+        "similarity_score": 0.798,
+        "semantic_score": 0.798,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.80) suggests related legal concepts and principles."
+      },
+      {
+        "case_id": "197909KS1SC",
+        "case_name": "V. S. Kuttan Pillai vs Ramakrishnan & Anr on 18 September, 1979",
+        "year": 1979,
+        "similarity_score": 0.796,
+        "semantic_score": 0.796,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.80) suggests related legal concepts and principles. This case (1979) predates the query case (1995) by 16 years, potentially serving as historical precedent."
+      },
+      {
+        "case_id": "200904KS4SC",
+        "case_name": "M/S Tirupati Jute Industries ... vs State Of West Bengal & Ors on 13 April, 2009",
+        "year": 2009,
+        "similarity_score": 0.783,
+        "semantic_score": 0.783,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.78) suggests related legal concepts and principles. This case (2009) is 14 years more recent than the query case (1995)."
+      }
+    ],
+    "overall_legal_context_summary": "The query case 'Pradeep Narayan Madgonkar Etc. ... vs State Of Maharashtra on 12 May, 1995' shows strong legal connections to 5 precedent cases. 5 case(s) exhibit high semantic similarity (>0.7), indicating shared legal principles and reasoning patterns. The retrieved cases span an average year of 1986, providing temporal context for legal evolution. These cases collectively form a robust external knowledge base for legal analysis and argumentation.",
+    "retrieval_metadata": {
+      "total_retrieved": 5,
+      "citation_weight": 0.5,
+      "semantic_weight": 0.5,
+      "model": "law-ai/InLegalBERT"
+    }
+  },
+  {
+    "query_case": "197309KS1SC",
+    "query_case_name": "Workmen vs Management Of Sijua (Jherriah) ... on 25 September, 1973",
+    "query_year": 1973,
+    "top_references": [
+      {
+        "case_id": "199412KS1SC",
+        "case_name": "M/S. Astra Pharmaceuticals (P) ... vs Collector Of Central Excise, ... on 16 December, 1994",
+        "year": 1994,
+        "similarity_score": 0.693,
+        "semantic_score": 0.693,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.69) suggests related legal concepts and principles. This case (1994) is 21 years more recent than the query case (1973)."
+      },
+      {
+        "case_id": "197807KS1SC",
+        "case_name": "Management Of Monghyr Factory Of ... vs The Presiding Officer, Labour ... on 24 July, 1978",
+        "year": 1978,
+        "similarity_score": 0.678,
+        "semantic_score": 0.678,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.68) suggests related legal concepts and principles. This case (1978) is 5 years more recent than the query case (1973)."
+      },
+      {
+        "case_id": "197312KS1SC",
+        "case_name": "Pooran Mal Etc vs Director Of Inspection ... on 14 December, 1973",
+        "year": 1973,
+        "similarity_score": 0.67,
+        "semantic_score": 0.67,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.67) suggests related legal concepts and principles."
+      },
+      {
+        "case_id": "198410KS1SC",
+        "case_name": "Commissioner Of Income Tax, ... vs The Official Liquidator, Palai ... on 16 October, 1984",
+        "year": 1984,
+        "similarity_score": 0.666,
+        "semantic_score": 0.666,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.67) suggests related legal concepts and principles. This case (1984) is 11 years more recent than the query case (1973)."
+      },
+      {
+        "case_id": "201708KS4SC",
+        "case_name": "Parmanand Singh (D) Th. Lrs. vs Union Of India Through The ... on 31 August, 2017",
+        "year": 2017,
+        "similarity_score": 0.655,
+        "semantic_score": 0.655,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.66) suggests related legal concepts and principles. This case (2017) is 44 years more recent than the query case (1973)."
+      }
+    ],
+    "overall_legal_context_summary": "The query case 'Workmen vs Management Of Sijua (Jherriah) ... on 25 September, 1973' shows strong legal connections to 5 precedent cases. The retrieved cases span an average year of 1989, providing temporal context for legal evolution. These cases collectively form a robust external knowledge base for legal analysis and argumentation.",
+    "retrieval_metadata": {
+      "total_retrieved": 5,
+      "citation_weight": 0.5,
+      "semantic_weight": 0.5,
+      "model": "law-ai/InLegalBERT"
+    }
+  },
+  {
+    "query_case": "199503KS1SC",
+    "query_case_name": "The Union Of India And Ors vs M/S.J.M.A. Industries on 28 March, 1995",
+    "query_year": 1995,
+    "top_references": [
+      {
+        "case_id": "199805KS1SC",
+        "case_name": "Union Of India (Uoi) And Ors. vs Surajdeo Podar And Ors. on 8 May, 1998",
+        "year": 1998,
+        "similarity_score": 0.74,
+        "semantic_score": 0.74,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.74) suggests related legal concepts and principles. This case (1998) is 3 years more recent than the query case (1995)."
+      },
+      {
+        "case_id": "201601KS1SC",
+        "case_name": "S.P. Krishnappa & Ors vs Secy., Deptt. Of Revenue & Ors on 19 January, 2016",
+        "year": 2016,
+        "similarity_score": 0.692,
+        "semantic_score": 0.692,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.69) suggests related legal concepts and principles. This case (2016) is 21 years more recent than the query case (1995)."
+      },
+      {
+        "case_id": "199605KS1SC",
+        "case_name": "The State Of West Bengal & Ors vs Sri Kartick Chandra Das & Ors on 6 May, 1996",
+        "year": 1996,
+        "similarity_score": 0.679,
+        "semantic_score": 0.679,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.68) suggests related legal concepts and principles. This case (1996) is 1 years more recent than the query case (1995)."
+      },
+      {
+        "case_id": "198410KS1SC",
+        "case_name": "Commissioner Of Income Tax, ... vs The Official Liquidator, Palai ... on 16 October, 1984",
+        "year": 1984,
+        "similarity_score": 0.676,
+        "semantic_score": 0.676,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.68) suggests related legal concepts and principles. This case (1984) predates the query case (1995) by 11 years, potentially serving as historical precedent."
+      },
+      {
+        "case_id": "197004KS1SC",
+        "case_name": "N.V. Shanmugam And Co. vs The Commissioner Of Income-Tax, ... on 22 April, 1970",
+        "year": 1970,
+        "similarity_score": 0.671,
+        "semantic_score": 0.671,
+        "citation_score": 0.0,
+        "reasoning": "Moderate semantic similarity (0.67) suggests related legal concepts and principles. This case (1970) predates the query case (1995) by 25 years, potentially serving as historical precedent."
+      }
+    ],
+    "overall_legal_context_summary": "The query case 'The Union Of India And Ors vs M/S.J.M.A. Industries on 28 March, 1995' shows strong legal connections to 5 precedent cases. 1 case(s) exhibit high semantic similarity (>0.7), indicating shared legal principles and reasoning patterns. The retrieved cases span an average year of 1992, providing temporal context for legal evolution. These cases collectively form a robust external knowledge base for legal analysis and argumentation.",
+    "retrieval_metadata": {
+      "total_retrieved": 5,
+      "citation_weight": 0.5,
+      "semantic_weight": 0.5,
+      "model": "law-ai/InLegalBERT"
+    }
+  }
+]

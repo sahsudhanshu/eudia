@@ -1,0 +1,59 @@
+{
+  "query_case": "199011KS1SC",
+  "query_case_name": "Hardyal And Prem vs State Of Rajasthan on 9 November, 1990",
+  "query_year": 1990,
+  "top_references": [
+    {
+      "case_id": "201502KS1SC",
+      "case_name": "Union Of India & Ors vs Dileep Kumar Singh on 26 February, 2015",
+      "year": 2015,
+      "similarity_score": 0.976,
+      "semantic_score": 0.976,
+      "citation_score": 0.0,
+      "reasoning": "High semantic similarity (0.98) indicates strong conceptual overlap in legal reasoning and arguments. This case (2015) is 25 years more recent than the query case (1990)."
+    },
+    {
+      "case_id": "201603KS2SC",
+      "case_name": "Kerala State Road Transport ... vs N.K. Byjumon on 4 March, 2016",
+      "year": 2016,
+      "similarity_score": 0.968,
+      "semantic_score": 0.968,
+      "citation_score": 0.0,
+      "reasoning": "High semantic similarity (0.97) indicates strong conceptual overlap in legal reasoning and arguments. This case (2016) is 26 years more recent than the query case (1990)."
+    },
+    {
+      "case_id": "201402KS1SC",
+      "case_name": "Enercon (India) Ltd And Ors vs Enercon Gmbh And Anr on 14 February, 2014",
+      "year": 2014,
+      "similarity_score": 0.952,
+      "semantic_score": 0.952,
+      "citation_score": 0.0,
+      "reasoning": "High semantic similarity (0.95) indicates strong conceptual overlap in legal reasoning and arguments. This case (2014) is 24 years more recent than the query case (1990)."
+    },
+    {
+      "case_id": "198512KS1SC",
+      "case_name": "Prakash Amichand Shah vs State Of Gujarat & Ors on 20 December, 1985",
+      "year": 1985,
+      "similarity_score": 0.948,
+      "semantic_score": 0.948,
+      "citation_score": 0.0,
+      "reasoning": "High semantic similarity (0.95) indicates strong conceptual overlap in legal reasoning and arguments. This case (1985) predates the query case (1990) by 5 years, potentially serving as historical precedent."
+    },
+    {
+      "case_id": "201211KS1SC",
+      "case_name": "State Of Haryana & Anr vs Kartar Singh (D) By Lrs on 29 November, 2012",
+      "year": 2012,
+      "similarity_score": 0.943,
+      "semantic_score": 0.943,
+      "citation_score": 0.0,
+      "reasoning": "High semantic similarity (0.94) indicates strong conceptual overlap in legal reasoning and arguments. This case (2012) is 22 years more recent than the query case (1990)."
+    }
+  ],
+  "overall_legal_context_summary": "The query case 'Hardyal And Prem vs State Of Rajasthan on 9 November, 1990' shows strong legal connections to 5 precedent cases. 5 case(s) exhibit high semantic similarity (>0.7), indicating shared legal principles and reasoning patterns. The retrieved cases span an average year of 2008, providing temporal context for legal evolution. These cases collectively form a robust external knowledge base for legal analysis and argumentation.",
+  "retrieval_metadata": {
+    "total_retrieved": 5,
+    "citation_weight": 0.4,
+    "semantic_weight": 0.6,
+    "model": "law-ai/InLegalBERT"
+  }
+}

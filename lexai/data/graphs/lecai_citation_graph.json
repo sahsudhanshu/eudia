@@ -1,0 +1,286 @@
+{
+  "nodes": [
+    {
+      "id": "199011KS1SC",
+      "text": "Hardyal And Prem vs State Of Rajasthan on 9 November, 1990",
+      "doc_id": "199011KS1SC",
+      "case_name": "Hardyal And Prem vs State Of Rajasthan on 9 November, 1990",
+      "file_name": "311779.txt"
+    },
+    {
+      "id": "196510KS1SC",
+      "text": "The State Of Mysore vs Padmanabhacharya Etc.[P. B. ... on 5 October, 1965",
+      "doc_id": "196510KS1SC",
+      "case_name": "The State Of Mysore vs Padmanabhacharya Etc.[P. B. ... on 5 October, 1965",
+      "file_name": "125847.txt"
+    },
+    {
+      "id": "199505KS1SC",
+      "text": "Pradeep Narayan Madgonkar Etc. ... vs State Of Maharashtra on 12 May, 1995",
+      "doc_id": "199505KS1SC",
+      "case_name": "Pradeep Narayan Madgonkar Etc. ... vs State Of Maharashtra on 12 May, 1995",
+      "file_name": "280656.txt"
+    },
+    {
+      "id": "197309KS1SC",
+      "text": "Workmen vs Management Of Sijua (Jherriah) ... on 25 September, 1973",
+      "doc_id": "197309KS1SC",
+      "case_name": "Workmen vs Management Of Sijua (Jherriah) ... on 25 September, 1973",
+      "file_name": "31374.txt"
+    },
+    {
+      "id": "199503KS1SC",
+      "text": "The Union Of India And Ors vs M/S.J.M.A. Industries on 28 March, 1995",
+      "doc_id": "199503KS1SC",
+      "case_name": "The Union Of India And Ors vs M/S.J.M.A. Industries on 28 March, 1995",
+      "file_name": "54278.txt"
+    },
+    {
+      "id": "198307KS1SC",
+      "text": "H. C. Sharma And Others vs Municipal Corporation Of Delhi ... on 13 July, 1983",
+      "doc_id": "198307KS1SC",
+      "case_name": "H. C. Sharma And Others vs Municipal Corporation Of Delhi ... on 13 July, 1983",
+      "file_name": "432818.txt"
+    },
+    {
+      "id": "200906KS1SC",
+      "text": "M/S Clinique Laboratories Llc & ... vs M/S Gufic P.Limited & Anr on 15 June, 2009",
+      "doc_id": "200906KS1SC",
+      "case_name": "M/S Clinique Laboratories Llc & ... vs M/S Gufic P.Limited & Anr on 15 June, 2009",
+      "file_name": "51777.txt"
+    },
+    {
+      "id": "201110KS1SC",
+      "text": "Takdir Samsuddin Sheikh vs State Of Gujarat & Anr on 21 October, 2011",
+      "doc_id": "201110KS1SC",
+      "case_name": "Takdir Samsuddin Sheikh vs State Of Gujarat & Anr on 21 October, 2011",
+      "file_name": "1399763.txt"
+    },
+    {
+      "id": "199601KS1SC",
+      "text": "Cantonment Board And Anr vs Mohanlal And Anr on 2 January, 1996",
+      "doc_id": "199601KS1SC",
+      "case_name": "Cantonment Board And Anr vs Mohanlal And Anr on 2 January, 1996",
+      "file_name": "34469.txt"
+    },
+    {
+      "id": "196707KS1SC",
+      "text": "Commissioner Of Income-Tax ... vs Hukamchand Mills Ltd. Indore on 21 July, 1967",
+      "doc_id": "196707KS1SC",
+      "case_name": "Commissioner Of Income-Tax ... vs Hukamchand Mills Ltd. Indore on 21 July, 1967",
+      "file_name": "1536657.txt"
+    }
+  ],
+  "edges": [
+    {
+      "source": "199011KS1SC",
+      "target": "199505KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.6488926410675049,
+      "weight": 0.6488926410675049
+    },
+    {
+      "source": "199011KS1SC",
+      "target": "196510KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.5321443676948547,
+      "weight": 0.5321443676948547
+    },
+    {
+      "source": "199011KS1SC",
+      "target": "199601KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.4942823648452759,
+      "weight": 0.4942823648452759
+    },
+    {
+      "source": "196510KS1SC",
+      "target": "199505KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.5759605765342712,
+      "weight": 0.5759605765342712
+    },
+    {
+      "source": "196510KS1SC",
+      "target": "199011KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.53214430809021,
+      "weight": 0.53214430809021
+    },
+    {
+      "source": "196510KS1SC",
+      "target": "201110KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.46008414030075073,
+      "weight": 0.46008414030075073
+    },
+    {
+      "source": "199505KS1SC",
+      "target": "199011KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.6488926410675049,
+      "weight": 0.6488926410675049
+    },
+    {
+      "source": "199505KS1SC",
+      "target": "196510KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.5759605765342712,
+      "weight": 0.5759605765342712
+    },
+    {
+      "source": "199505KS1SC",
+      "target": "199601KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.53470778465271,
+      "weight": 0.53470778465271
+    },
+    {
+      "source": "197309KS1SC",
+      "target": "198307KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.39085716009140015,
+      "weight": 0.39085716009140015
+    },
+    {
+      "source": "197309KS1SC",
+      "target": "196707KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.3842618465423584,
+      "weight": 0.3842618465423584
+    },
+    {
+      "source": "197309KS1SC",
+      "target": "199503KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.3522704243659973,
+      "weight": 0.3522704243659973
+    },
+    {
+      "source": "199503KS1SC",
+      "target": "198307KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.5901495814323425,
+      "weight": 0.5901495814323425
+    },
+    {
+      "source": "199503KS1SC",
+      "target": "199505KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.524854302406311,
+      "weight": 0.524854302406311
+    },
+    {
+      "source": "199503KS1SC",
+      "target": "199601KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.4926329255104065,
+      "weight": 0.4926329255104065
+    },
+    {
+      "source": "198307KS1SC",
+      "target": "199503KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.5901495814323425,
+      "weight": 0.5901495814323425
+    },
+    {
+      "source": "198307KS1SC",
+      "target": "196707KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.5741300582885742,
+      "weight": 0.5741300582885742
+    },
+    {
+      "source": "198307KS1SC",
+      "target": "199505KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.5270348787307739,
+      "weight": 0.5270348787307739
+    },
+    {
+      "source": "200906KS1SC",
+      "target": "199503KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.34521669149398804,
+      "weight": 0.34521669149398804
+    },
+    {
+      "source": "200906KS1SC",
+      "target": "196707KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.26613113284111023,
+      "weight": 0.26613113284111023
+    },
+    {
+      "source": "200906KS1SC",
+      "target": "198307KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.23335084319114685,
+      "weight": 0.23335084319114685
+    },
+    {
+      "source": "201110KS1SC",
+      "target": "199505KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.4803426265716553,
+      "weight": 0.4803426265716553
+    },
+    {
+      "source": "201110KS1SC",
+      "target": "196510KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.46008414030075073,
+      "weight": 0.46008414030075073
+    },
+    {
+      "source": "201110KS1SC",
+      "target": "199601KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.4578871726989746,
+      "weight": 0.4578871726989746
+    },
+    {
+      "source": "199601KS1SC",
+      "target": "199505KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.53470778465271,
+      "weight": 0.53470778465271
+    },
+    {
+      "source": "199601KS1SC",
+      "target": "199011KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.4942823350429535,
+      "weight": 0.4942823350429535
+    },
+    {
+      "source": "199601KS1SC",
+      "target": "199503KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.4926329255104065,
+      "weight": 0.4926329255104065
+    },
+    {
+      "source": "196707KS1SC",
+      "target": "198307KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.5741300582885742,
+      "weight": 0.5741300582885742
+    },
+    {
+      "source": "196707KS1SC",
+      "target": "199503KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.4633238911628723,
+      "weight": 0.4633238911628723
+    },
+    {
+      "source": "196707KS1SC",
+      "target": "201110KS1SC",
+      "citation_type": "contradicts",
+      "similarity": 0.4187241196632385,
+      "weight": 0.4187241196632385
+    }
+  ]
+}
